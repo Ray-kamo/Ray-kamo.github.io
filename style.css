@@ -1,6 +1,3 @@
-/* --------------------
-        全体
--------------------- */
 
 :root {
   --theme-color: #87cefa;
@@ -21,27 +18,16 @@ body {
   color: #333;
 }
 
-/* --------------------
-        見出し
--------------------- /
 
 h1, h2, h3 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
 }
 
-/ --------------------
-        リンク
--------------------- /
-
 a {
   color: var(--theme-color);
   text-decoration: none;
 }
-
-/ --------------------
-        リスト
--------------------- /
 
 ul {
   list-style: none;
@@ -50,10 +36,6 @@ li:before {
   content: "★";
   color: var(--theme-color);
 }
-
-/ --------------------
-          表
--------------------- */
 
 table {
   border-spacing: 0;
